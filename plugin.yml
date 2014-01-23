@@ -1,0 +1,27 @@
+name: Ranks
+main: com.weebly.turtleplays.ranks.Ranks
+version: 0.0.2
+
+commands:
+   setrank:
+      description: This command sets the rank of the specified player
+      usage: /<command> [Player] [Rank]
+      permission: <plugin name>.setrank
+      permission-message: You don't have <permission>
+   newrank:
+         description: This command create a new rank
+         usage: /<command> [RankName] [RankChat]
+         permission: <plugin name>.newrank
+         permission-message: You don't have <permission>
+   delrank:
+         description: This command deleted the specified rank
+         usage: /<command> [Rank]
+         permission: <plugin name>.delrank
+         aliases: deleterank
+         permission-message: You don't have <permission>
+   ranks:
+            description: Lists ranks and there displays
+            usage: /<command>
+            permission: <plugin name>.ranks
+            aliases: deleterank
+            permission-message: You don't have <permission>

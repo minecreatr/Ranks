@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Ranks">
+    <output-path>$USER_HOME$/Desktop/Minecraft_Server/plugins</output-path>
+    <root id="archive" name="Ranks.jar">
+      <element id="module-output" name="Ranks" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
